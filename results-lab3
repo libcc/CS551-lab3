@@ -1,0 +1,20 @@
+
+Student nazimi2 graded on Mon Nov 20 06:39:35 PM EST 2023
+------------------------------------------
+Compilation completed correctly. Warnings provided in 'compErr.log' for your information.
+a: Properly using '/bin/sort' for sorting
+b: The parent process waits for all its children
+(-5 Points) c: Does not use stream functions (buffered I/O) for I/O to/from pipes
+        Uses the write systems call
+(-3 Points) d: Does not close some pipes with 'fclose or fflushed' when used for stream-based I/O
+e: Don't open any disk file.
+f: Exec sort with no arguments.
+g: Output is free of duplicates and in order with 1 sorter and a small file
+(-1 Points) h: Results are NOT correct for 1 sorter and a small file
+    wrong use of -s
+(-1 Points) i1: Results are NOT correct for 1 sorter(s) and a large (4 MB) file
+(-7 Points) i2: Results are NOT correct for 2 sorter(s) and a large (4 MB) file
+(-7 Points) i3: Results are NOT correct for 5 sorter(s) and a large (4 MB) file
+    sorting incorrect n >1
+------------------------------------------
+Final grade = 76
